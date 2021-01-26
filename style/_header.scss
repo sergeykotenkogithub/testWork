@@ -1,0 +1,35 @@
+.header {
+  height: 236px;
+  margin-top: 44px;
+  background: #ffffff;
+  box-shadow: 0px 4px 48px rgba(0, 0, 0, 0.16);
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.contact {
+  background-color: #fed600;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner {
+  padding: 0 120px;
+}
+
+.contact_us {
+  display: flex;
+  align-items: center;
+  width: 507px;
+  justify-content: space-between;
+}
+
+.contact_us2 {
+  display: flex;
+  align-items: center;
+  width: 431px;
+  justify-content: space-between;
+}
