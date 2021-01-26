@@ -1,3 +1,12 @@
-@media (max-width: 991px) {
-    
+@media (max-width: 1400px) {
+  .about_present {
+    // background: red;
+    grid-template-rows: 1fr;
+    grid-template-columns: 213px 81px 64px 160px !important;
+  }
+  .about_search {
+    grid-row: 2;
+    grid-column: 1/5;
+    justify-self: center;
+  }
 }

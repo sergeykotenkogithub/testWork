@@ -2,18 +2,26 @@
   height: 126px;
   border-bottom: 1px solid rgba(189, 189, 189, 0.35);
   margin-top: 16px;
-  //   display: flex;
-  //   align-items: center;
-  .about_present {
-    height: 73px;
-    display: flex;    
+
+  .about_wrapper_3d {
+    display: flex;
     align-items: center;
-    justify-content: space-between;    
-    // display: grid;
-    // grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .about_present {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 213px 81px 501px 64px 160px;
+    // @media (max-width: 1400px) {
+    //   //   width: auto;
+    //   background: red;
+    // }
 
     .about_3d {
       width: 64px;
+      margin-right: 16px;
     }
     .about_expert {
       height: 36px;
@@ -28,6 +36,7 @@
       padding: 5px 12px;
       box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
       border-radius: 8px;
+      width: 81px;
     }
     .about_search {
       width: 501px;
@@ -109,13 +118,13 @@
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
-  }  
+  }
 }
 
 .about_menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 61px;
-    font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 61px;
+  font-weight: bold;
 }

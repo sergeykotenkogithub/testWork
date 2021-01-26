@@ -15,8 +15,14 @@
   height: 126px;
   border-bottom: 1px solid rgba(189, 189, 189, 0.35);
   margin-top: 16px; }
+  .about .about_wrapper_3d {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
   .about .about_present {
-    height: 73px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -25,9 +31,14 @@
     align-items: center;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between; }
+    justify-content: space-between;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 213px 81px 501px 64px 160px;
+    grid-template-columns: 213px 81px 501px 64px 160px; }
     .about .about_present .about_3d {
-      width: 64px; }
+      width: 64px;
+      margin-right: 16px; }
     .about .about_present .about_expert {
       height: 36px;
       width: 133px;
@@ -39,7 +50,8 @@
       padding: 5px 12px;
       -webkit-box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
       box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
-      border-radius: 8px; }
+      border-radius: 8px;
+      width: 81px; }
     .about .about_present .about_search {
       width: 501px;
       height: 44px;
@@ -188,6 +200,21 @@
   margin-top: 70px; }
   .content img {
     width: 100%; }
+
+@media (max-width: 1400px) {
+  .about_present {
+    -ms-grid-rows: 1fr;
+    grid-template-rows: 1fr;
+    -ms-grid-columns: 213px 81px 64px 160px !important;
+    grid-template-columns: 213px 81px 64px 160px !important; }
+  .about_search {
+    -ms-grid-row: 2;
+    grid-row: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 4;
+    grid-column: 1/5;
+    -ms-grid-column-align: center;
+    justify-self: center; } }
 
 .container {
   margin: 0 auto;
