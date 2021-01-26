@@ -12,8 +12,9 @@
 .contact {
   background-color: #fed600;
   height: 32px;
-  display: flex;
+  display: grid;
   justify-content: space-between;
+  grid-template-columns: 507px 431px;
 }
 
 .inner {

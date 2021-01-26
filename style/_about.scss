@@ -1,6 +1,5 @@
 .about {
   height: 126px;
-  border-bottom: 1px solid rgba(189, 189, 189, 0.35);
   margin-top: 16px;
 
   .about_wrapper_3d {
@@ -14,10 +13,7 @@
     justify-content: space-between;
     display: grid;
     grid-template-columns: 213px 81px 501px 64px 160px;
-    // @media (max-width: 1400px) {
-    //   //   width: auto;
-    //   background: red;
-    // }
+    gap: 15px;
 
     .about_3d {
       width: 64px;
@@ -117,7 +113,16 @@
   .about_nav {
     display: flex;
     justify-content: space-between;
-    margin-top: 25px;
+    margin-top: 13px;
+  }
+
+  .line {
+    // border-bottom: 1px solid rgba(189, 189, 189, 0.35);
+    width: 100%;
+    background: #bdbdbd;
+    opacity: 0.35;
+    height: 1px;
+    margin-top: 21px;
   }
 }
 

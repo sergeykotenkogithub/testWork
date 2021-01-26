@@ -1,12 +1,56 @@
+// @media (max-width: 1400px) {
+//   .about_present {
+//     // background: red;
+//     grid-template-rows: 1fr;
+//     grid-template-columns: 213px 81px 64px 160px !important;
+//   }
+//   .about_search {
+//     grid-row: 2;
+//     grid-column: 1/5;
+//     justify-self: center;
+//     width: 100% !important;
+//   }
+
+//   .header {
+//     height: 300px;
+//   }
+// }
+
 @media (max-width: 1400px) {
-  .about_present {
-    // background: red;
-    grid-template-rows: 1fr;
-    grid-template-columns: 213px 81px 64px 160px !important;
-  }
-  .about_search {
-    grid-row: 2;
-    grid-column: 1/5;
-    justify-self: center;
+  .inner {
+    padding: 0 60px;
   }
 }
+@media (max-width: 1300px) {
+  .inner {
+    padding: 0 40px;
+  }
+}
+
+// @media (max-width: 1300px) {
+//   .about_menu {
+//     flex-wrap: wrap;
+//     justify-content: center;
+//     div {
+//       margin: 5px;
+//     }
+//   }
+// }
+
+// @media (max-width: 1300px) {
+//   .contact {
+//     grid-template-columns: 1fr;
+//     height: 60px;
+//   }
+//   .contact_us,
+//   .contact_us2 {
+//     width: 100%;
+//     justify-content: space-around;
+//   }
+//   .header {
+//     height: 340px;
+//   }
+//   .inner {
+//     padding: 0 120px;
+//   }
+// }
