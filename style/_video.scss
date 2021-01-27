@@ -1,0 +1,43 @@
+.video {
+  background: #f9f9f9;
+  height: 550px;
+}
+
+.video_title {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  padding-top: 70px;
+  font-family: "SF Pro Display";
+}
+
+.video_icon {
+  font-size: 0; // чтобы блоки рядом были
+  button {
+    font-size: 17px;
+    width: 40px;
+    height: 39px;
+    background: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    outline: none;
+  }
+}
+
+.video_text {
+  font-size: 36px;
+  line-height: 43px;
+}
+
+.video_play {
+  margin-top: 54px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.video_first,
+.video_second {
+    img {
+        width: 100%;
+    }
+}

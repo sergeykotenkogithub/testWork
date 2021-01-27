@@ -4,6 +4,33 @@
 @import "header";
 @import "content";
 @import "media";
+@import "news";
+@import "video";
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../font/SF/SFProDisplay-Regular.eot");
+  src: local("SF Pro Display Regular"), local("SFProDisplay-Regular"),
+    url("../font/SF/SFProDisplay-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../font/SF/SFProDisplay-Regular.woff2") format("woff2"),
+    url("../font/SF/SFProDisplay-Regular.woff") format("woff"),
+    url("../font/SF/SFProDisplay-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../font/SF/SFProDisplay-Medium.eot");
+  src: local("SF Pro Display Medium"), local("SFProDisplay-Medium"),
+    url("../font/SF/SFProDisplay-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../font/SF/SFProDisplay-Medium.woff2") format("woff2"),
+    url("../font/SF/SFProDisplay-Medium.woff") format("woff"),
+    url("../font/SF/SFProDisplay-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
 
 .container {
   margin: 0 auto;

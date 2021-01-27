@@ -1,6 +1,51 @@
 .content {
-    margin-top: 70px;
-    img {
-        width: 100%;
+  margin-top: 70px;
+  img {
+    width: 100%;
+  }
+
+  .content_text {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'SF Pro Display';
+  }
+
+  .content_title {
+    width: 333px;
+    height: 96px;
+    font-size: 27px;
+    line-height: 32px;
+    margin-bottom: 52px;
+  }
+  .content_send {
+    background: #d2001c;
+    border-radius: 4px;
+    width: 280px;
+    height: 44px;
+    outline: none;
+    margin-bottom: 20px;
+    border: none;
+    color: #FFFFFF;
+  }
+  .content_concord {
+    width: 280px;
+    height: 34px;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.7px;
+    color: #c4c4c4;
+  }
+
+  .content_info {
+    max-width: 708px;
+    text-align: justify;
+    display: grid;
+    gap: 5px;
+
+    a {
+      color: red;
+      text-decoration: underline;
     }
+  }
 }
